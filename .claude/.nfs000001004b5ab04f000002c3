@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /ourdisk/hpc/laborecon/ransom/auto_archive_notyet/tape_2copies/misc/moretti_rep -type f -name *.md -o -name README* -o -name CLAUDE.md -o -name .cursorrules -o -name copilot-instructions.md)",
+      "Bash(file /ourdisk/hpc/laborecon/ransom/auto_archive_notyet/tape_2copies/misc/moretti_rep/code/*.txt)",
+      "Bash(wc -l /ourdisk/hpc/laborecon/ransom/auto_archive_notyet/tape_2copies/misc/moretti_rep/code/*.txt)",
+      "Bash(file /ourdisk/hpc/laborecon/ransom/auto_archive_notyet/tape_2copies/misc/moretti_rep/readings/*.pdf)",
+      "Bash(pdfinfo /ourdisk/hpc/laborecon/ransom/auto_archive_notyet/tape_2copies/misc/moretti_rep/readings/moretti-inventors.pdf)",
+      "Bash(pdfinfo /ourdisk/hpc/laborecon/ransom/auto_archive_notyet/tape_2copies/misc/moretti_rep/code/README.pdf)",
+      "Bash(pdfinfo /ourdisk/hpc/laborecon/ransom/auto_archive_notyet/tape_2copies/misc/moretti_rep/readings/moretti-appendix.pdf)"
+    ]
+  }
+}
